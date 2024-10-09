@@ -3,14 +3,16 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Sistema administrativo para empleados con registro, asistencia, evaluaciones y capacitación.">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <title>Control de Personal y Capacitación</title>
-   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="css/styles.css"> <!-- Cambiar ruta si está en una carpeta -->
 </head>
 <body>
    <!-- Encabezado -->
    <header>
        <div class="header-container">
-           <img src="logo.png" alt="Logo Mueblería" class="logo">
+           <img src="images/logo.png" alt="Logo Mueblería" class="logo"> <!-- Cambiar ruta si es necesario -->
            <nav>
                <ul>
                    <li><a href="#registro">Registro</a></li>
@@ -30,13 +32,13 @@
            <p>Controla tu horario, inscríbete en cursos, y lleva un seguimiento de tu desempeño laboral.</p>
            <a href="#registro" class="btn-principal">Comienza Ahora</a>
        </div>
-       <img src="banner-muebles.jpg" alt="Imagen de Mueblería" class="banner-image">
+       <img src="images/banner-muebles.jpg" alt="Imagen de Mueblería" class="banner-image"> <!-- Cambiar ruta si es necesario -->
    </section>
 
    <!-- Sección de Registro -->
    <section id="registro" class="section">
        <h2>Registro de Empleados</h2>
-       <form action="#" method="POST">
+       <form action="javascript:void(0)" method="POST"> <!-- Cambiar action si es necesario -->
            <label for="nombre">Nombre:</label>
            <input type="text" id="nombre" name="nombre" required>
 
@@ -74,7 +76,7 @@
    <section id="capacitacion" class="section bg-light">
        <h2>Programas de Capacitación</h2>
        <p>Inscríbete en nuestros programas de capacitación y mejora tus habilidades.</p>
-       <form action="#" method="POST">
+       <form action="javascript:void(0)" method="POST"> <!-- Cambiar action si es necesario -->
            <label for="curso">Selecciona un curso:</label>
            <select id="curso" name="curso">
                <option value="curso1">Curso de Ventas</option>
